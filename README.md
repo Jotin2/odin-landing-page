@@ -1,2 +1,3 @@
 # odin-landing-page
-Created a landing page for the Odin Project. The landing page utilizes flex to display elements on the page/
+Created a landing page for the Odin Project. The landing page utilizes flex to display elements on the page. 
+Learned a lot about creating sections and utilizing flex in order to set the information within each sections to its proper positions. Although there are some bugs with my landing page which includes not rezing correctly when changing size of webpage. Lastly, there is extra space at the bottom of the webpage.
