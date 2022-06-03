@@ -60,6 +60,8 @@ a {
 
 .fcontainer {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-child {
@@ -79,6 +81,53 @@ a {
 }
 
 .fbody {
-
+    margin-bottom: 10px;
 }
 
+.sign1 {
+    background-color: #3882F6;
+    border-radius: 6px;
+    color: white;
+    padding: 2px 12px;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+}
+
+.shead {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 24px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 350px;
+    pading: 0;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.cimg {
+    border: 5px solid #3882F6;
+    border-radius: 6px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text {
+    width: 0;
+    min-width: 100%;
+    text-align: center;
+}
