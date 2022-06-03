@@ -1,7 +1,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -48,6 +48,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .first{
@@ -55,7 +56,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 250px;
+    height: 25vh;
 }
 
 .fcontainer {
@@ -94,6 +95,7 @@ a {
 .second {
     display: flex;
     flex-direction: column;
+    height: 25vh;
 }
 
 .shead {
@@ -102,14 +104,13 @@ a {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
-    padding: 24px;
+    margin-top: 0;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    margin: 0 350px;
-    pading: 0;
+    margin: 0 650px;
     justify-content: center;
     justify-content: space-between;
 }
@@ -117,6 +118,7 @@ a {
 .cimg {
     border: 5px solid #3882F6;
     border-radius: 6px;
+    height: 40%
 }
 
 .info {
@@ -130,4 +132,89 @@ a {
     width: 0;
     min-width: 100%;
     text-align: center;
+    font-size: 10px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 25vh;
+}
+
+.qcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24%;
+}
+
+.quote, .author {
+    font-size: 30px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.author {
+    margin-left: 65%;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+}
+
+.fourth .container {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 50%;
+    background-color: #3882F6;
+    border-radius: 6px;
+}
+
+.fcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.container .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fheader {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.ftext {
+    font-size: 16px;
+    color: white;
+    width: 80%;
+}
+
+.sign {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    white-space: nowrap;
 }
